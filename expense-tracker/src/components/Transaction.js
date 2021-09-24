@@ -2,9 +2,10 @@ import React from 'react';
 
 function Transaction(){
     return (
-        <div>
-            <h1>Expense Tracker</h1>
-        </div>
+        <li>
+            <p>Expense Name</p>
+            <p>$0.00</p>
+        </li>
     )
 }
 

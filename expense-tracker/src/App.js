@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/App.css';
 import Header from './components/Header'
-import Transaction from './components/Transaction'
+import TransactionList from './components/TransactionList'
 import Balance from './components/Balance'
 import Breakdown from './components/Breakdown'
 
@@ -11,6 +11,7 @@ function App() {
       <Header/>
       <Balance/>
       <Breakdown/>
+      <TransactionList/>
     </div>
   );
 }
