@@ -1,0 +1,10 @@
+.transactionlistContainer {
+    margin: 20px 0px;
+}
+
+.transactionlistContainer ul li{
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;  
+}
