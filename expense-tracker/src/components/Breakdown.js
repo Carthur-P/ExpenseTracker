@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import '../css/Breakdown.css';
 
-function Breakdown(){
-    return (
-        <div>
-            <h1>Expense Tracker</h1>
-        </div>
-    )
+function Breakdown() {
+  return (
+    <div className="container">
+      <div>
+        <h4>Income</h4>
+        <p>$0.00</p>
+      </div>
+      <div>
+        <h4>Expenses</h4>
+        <p>$0.00</p>
+      </div>
+    </div>
+  );
 }
 
-export default Breakdown
+export default Breakdown;
