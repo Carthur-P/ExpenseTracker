@@ -1,4 +1,4 @@
-.container {
+.breakdownContainer {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -7,20 +7,20 @@
     box-shadow: 0px 0px 10px 2px lightgrey;
 }
 
-.container div:nth-child(2){
+.breakdownContainer div:nth-child(2){
     border-left: solid grey 1px;
 }
 
-.container div {
+.breakdownContainer div {
     padding: 10px 50px;
 }
 
-.container div:nth-child(2) h4{
+.breakdownContainer div:nth-child(2) h4{
     color: red;
     margin-bottom: 5px;
 }
 
-.container div h4{
+.breakdownContainer div h4{
     color: limegreen;
     margin-bottom: 5px;
 }

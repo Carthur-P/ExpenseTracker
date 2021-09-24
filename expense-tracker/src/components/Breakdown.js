@@ -3,7 +3,7 @@ import '../css/Breakdown.css';
 
 function Breakdown() {
   return (
-    <div className="container">
+    <div className="breakdownContainer">
       <div>
         <h4>Income</h4>
         <p>$0.00</p>
