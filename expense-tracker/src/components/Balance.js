@@ -4,7 +4,7 @@ import '../css/Balance.css'
 function Balance(){
     return (
         <div className="balanceContainer">
-            <h3>Balance</h3>
+            <h4>YOUR BALANCE</h4>
             <p>$0.00</p>
         </div>
     )
