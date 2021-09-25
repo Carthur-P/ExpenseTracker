@@ -7,9 +7,9 @@ function TransactionList(){
         <div className="transactionlistContainer">
             <h4>History</h4>
             <ul>
-                <Transaction/>
-                <Transaction />
-                <Transaction />
+                <Transaction name="Cat"/>
+                <Transaction name="Car"/>
+                <Transaction name="Food"/>
             </ul>
         </div>
     )

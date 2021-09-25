@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Transaction(){
+function Transaction(props){
     return (
         <li>
-            <p>Expense Name</p>
+            <p>{props.name}</p>
             <p>$0.00</p>
         </li>
     )
