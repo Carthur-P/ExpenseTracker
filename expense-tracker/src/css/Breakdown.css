@@ -1,6 +1,7 @@
 .breakdownContainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: white;
     padding: 20px;
     margin: 20px 0px;
@@ -8,19 +9,22 @@
 }
 
 .breakdownContainer div:nth-child(2){
-    border-left: solid grey 1px;
+    border-left: solid lightgrey 2px;
 }
 
 .breakdownContainer div {
     padding: 10px 50px;
+    text-align: center;
 }
 
-.breakdownContainer div:nth-child(2) h4{
-    color: red;
-    margin-bottom: 5px;
-}
-
-.breakdownContainer div h4{
+.breakdownContainer div p{
     color: limegreen;
-    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: 500;
 }
+
+.breakdownContainer div:nth-child(2) p{
+    color: red;
+}
+
+

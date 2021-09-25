@@ -5,12 +5,12 @@ function Breakdown() {
   return (
     <div className="breakdownContainer">
       <div>
-        <h4>Income</h4>
-        <p>$0.00</p>
+        <h5>INCOME</h5>
+        <p>+$0.00</p>
       </div>
       <div>
-        <h4>Expenses</h4>
-        <p>$0.00</p>
+        <h5>EXPENSE</h5>
+        <p>-$0.00</p>
       </div>
     </div>
   );
