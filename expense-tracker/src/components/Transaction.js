@@ -2,7 +2,7 @@ import React from 'react';
 
 function Transaction(props){
     return (
-        <li id={props.id}>
+        <li>
             <p>{props.name}</p>
             <p>$0.00</p>
         </li>
