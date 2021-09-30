@@ -2,9 +2,9 @@ import react, { createContext, useReducer } from "react";
 
 const initialState = {
     transactions: [
-        {id: 1, text: "Cat", amount: -30},
-        {id: 2, text: "Salary", amount: 100},
-        {id: 3, text: "Food", amount: -50},
+        {id: 1, name: "Cat", amount: -30},
+        { id: 2, name: "Salary", amount: 100},
+        { id: 3, name: "Food", amount: -50},
     ]
 }
 

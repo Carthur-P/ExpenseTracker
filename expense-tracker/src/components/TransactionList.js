@@ -1,15 +1,20 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { TransactionContext } from '../context/transactionState';
 import Transaction from './Transaction';
 import "../css/TransactionList.css"
 
 function TransactionList(){
+    const { transactions } = useContext(TransactionContext);
+
     return (
         <div className="transactionlistContainer">
             <h4>History</h4>
             <ul>
-                <Transaction name="Cat"/>
-                <Transaction name="Car"/>
-                <Transaction name="Food"/>
+                {transactions.map((t) => {
+                    return (
+                        <Transaction id={t.id} name={t.name} amount={t.amount} />
+                    );
+                })}
             </ul>
         </div>
     )
