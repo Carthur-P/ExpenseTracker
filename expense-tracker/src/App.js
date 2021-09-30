@@ -5,18 +5,21 @@ import TransactionList from './components/TransactionList'
 import Balance from './components/Balance'
 import Breakdown from './components/Breakdown'
 import AddTransaction from './components/AddTransaction'
+import { TransactionProvider } from './context/transactionState';
 
 function App() {
   return (
-    <div className="app">
-      <div className="container">
-        <Header />
-        <Balance />
-        <Breakdown />
-        <TransactionList />
-        <AddTransaction />
+    <TransactionProvider>
+      <div className="app">
+        <div className="container">
+          <Header />
+          <Balance />
+          <Breakdown />
+          <TransactionList />
+          <AddTransaction />
+        </div>
       </div>
-    </div>
+    </TransactionProvider>
   );
 }
 

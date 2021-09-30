@@ -20,7 +20,7 @@ const transactionReducer = (state, action) => {
 export const TransactionContext = createContext(initialState);
 
 //creating Provider
-export const TransactionProvide = (({ children }) => {
+export const TransactionProvider = (({ children }) => {
     const [state, dispatch] = useReducer(transactionReducer, initialState);
 
     return (
