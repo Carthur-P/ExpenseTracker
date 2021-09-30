@@ -3,8 +3,8 @@ import React from 'react';
 function Transaction(props){
     return (
         <li>
-            <p>{props.name}</p>
-            <p>$0.00</p>
+            <p>{props.transaction.name}</p>
+            <p>{props.transaction.amount}</p>
         </li>
     )
 }

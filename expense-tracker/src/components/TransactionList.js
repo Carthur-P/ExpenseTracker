@@ -10,9 +10,9 @@ function TransactionList(){
         <div className="transactionlistContainer">
             <h4>History</h4>
             <ul>
-                {transactions.map((t) => {
+                {transactions.map((transaction) => {
                     return (
-                        <Transaction key={t.id} name={t.name} amount={t.amount} />
+                        <Transaction key={transaction.id} transaction={transaction}/>
                     );
                 })}
             </ul>
