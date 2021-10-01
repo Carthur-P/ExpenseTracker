@@ -1,7 +1,3 @@
-.currency::before {
-  content: "$";
-}
-
 .transactionContainer li {
   display: flex;
   flex-direction: row;

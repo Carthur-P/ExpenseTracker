@@ -6,7 +6,7 @@ function Transaction(props) {
         <div className="transactionContainer">
             <li className={props.transaction.amount > 0 ? 'positive' : 'negative'}>
                 <p>{props.transaction.name}</p>
-                <p className="currency">{props.transaction.amount}</p>
+                <p>{props.transaction.amount > 0 ? `$${props.transaction.amount}` : `- $${Math.abs(props.transaction.amount)}`}</p>
             </li>
         </div>
     )
