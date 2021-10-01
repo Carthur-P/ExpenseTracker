@@ -9,17 +9,7 @@
   margin-bottom: 20px;
 }
 
-.transactionlistContainer ul li {
+.transactionlistContainer ul {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
-.transactionlistContainer li {
-  background-color: white;
-  padding: 10px;
-  margin: 10px 0px;
-  font-size: 0.9em;
-  box-shadow: 0px 0px 10px 1px lightgrey;
-}
