@@ -11,9 +11,7 @@ function TransactionList() {
             <h4>History</h4>
             <ul>
                 {state.map(t =>
-                    <li key={t.key}>
-                        <Transaction transaction={t} />
-                    </li>
+                    <Transaction key={t.key} transaction={t} />
                 )}
             </ul>
         </div>
