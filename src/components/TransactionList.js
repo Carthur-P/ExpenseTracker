@@ -2,7 +2,6 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import Transaction from './Transaction';
 import "../css/TransactionList.css"
-import { transform } from 'lodash';
 
 function TransactionList() {
     const state = useSelector(state => state.transaction);
