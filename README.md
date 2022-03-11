@@ -4,6 +4,7 @@ A web application developed in React that allows the user to track their spendin
 ## Technology Used
 - React
 - Redux & React Redux
+- Redux Persist
 - CSS
 
 
