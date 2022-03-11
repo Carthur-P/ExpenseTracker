@@ -1,4 +1,5 @@
 import React from 'react';
+import trash from '../resources/cross.png';
 import '../css/Transaction.css'
 
 function Transaction({ transaction, onClick }) {
@@ -6,9 +7,9 @@ function Transaction({ transaction, onClick }) {
         <div className="transactionContainer">
             <li className={transaction.amount > 0 ? 'positive' : 'negative'}>
                 <p>{transaction.name}</p>
-                <div>
+                <div className='flexbox-row'>
                     <p>{transaction.amount > 0 ? `$${transaction.amount}` : `- $${Math.abs(transaction.amount)}`}</p>
-                    <button onClick={() => onClick(transaction.key)}>Delete</button>
+                    <img onClick={() => onClick(transaction.key)} src={trash} />
                 </div>
             </li>
         </div>
