@@ -4,3 +4,10 @@ export const addTransaction = (transaction) => {
         payload: transaction
     }
 }
+
+export const deleteTransaction = (key) => {
+    return {
+        type: "deleteTansaction",
+        payload: key
+    }
+}

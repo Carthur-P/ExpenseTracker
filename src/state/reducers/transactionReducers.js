@@ -10,6 +10,8 @@ const transactionReducer = (state = initialState, action) => {
                     key: action.payload.name + state.length
                 }
             ]
+        case "deleteTansaction":
+            return state.filter(s => s.key !== action.payload);
         default:
             return state
     }
